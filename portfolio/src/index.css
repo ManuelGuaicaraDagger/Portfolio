@@ -3,6 +3,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .underline-animation {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .underline-animation::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .underline-animation:hover::after {
+    transform: translateX(0);
+  }
+}
+
 /* Box sizing rules */
 *,
 *::before,
