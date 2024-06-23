@@ -37,7 +37,7 @@ const Contact = () => {
     };
 
     return (
-        <section className="flex flex-col justify-center items-center mt-[60px]">
+        <section className="flex flex-col justify-center items-center mt-[60px]" id="contacto">
             <h2 className="text-[52px] font-bold">Contacto</h2>
             <form
             ref={formRef}

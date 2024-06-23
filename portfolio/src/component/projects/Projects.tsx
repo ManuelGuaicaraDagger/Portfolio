@@ -26,7 +26,7 @@ const projects = [
 
 function Projects() {
   return (
-    <section className="flex justify-center mt-[130px]">
+    <section className="flex justify-center mt-[130px]" id='proyectos'>
       <div className="text-center">
         <h2 className="text-[52px] mb-[20px] font-bold">Proyectos</h2>
         <div className='flex flex-col justify-center items-center'>

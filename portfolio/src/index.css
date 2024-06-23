@@ -70,6 +70,7 @@ body {
   font-family: sans-serif;
   background-color: black;
   color: white;
+  padding-top: 92px;
 }
 
 /* Remove text indentation from inline elements */

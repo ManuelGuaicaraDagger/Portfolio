@@ -83,7 +83,7 @@ const technologies = [
 
 const Technologies = () => {
     return (
-        <section className="flex flex-col justify-center items-center mt-[60px]">
+        <section className="flex flex-col justify-center items-center mt-[60px]" id="tecnologias">
             <div className="text-center">
                 <h2 className="text-[52px] mb-[50px] font-bold">Tecnologías</h2>
             </div>

@@ -1,17 +1,27 @@
 function Header() {
-    return (
-      <header className="flex justify-between px-[200px] py-[28px] ">
-        <nav className=" flex items-center">
-            <ul className="flex items-center w-[400px] justify-between">
-                <li className="underline-animation">Proyectos</li>
-                <li className="underline-animation">Tecnologías</li>
-                <li className="underline-animation">Sobre mi</li>
-            </ul>
-        </nav>
-        <a className="w-[175px] h-[35px] rounded-[10px] flex justify-center items-center bg-pt-blue text-black" href="/">Contáctame</a>
-      </header>
-    )
-  }
-  
-  export default Header
-  
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 flex justify-between px-[200px] py-[28px] bg-black shadow-md">
+      <nav className="flex items-center">
+        <ul className="flex items-center w-[400px] justify-between">
+          <li className="underline-animation">
+            <a href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li className="underline-animation">
+            <a href="#proyectos">Proyectos</a>
+          </li>
+          <li className="underline-animation">
+            <a href="#tecnologias">Tecnologías</a>
+          </li>
+        </ul>
+      </nav>
+      <a
+        className="w-[175px] h-[35px] rounded-[10px] flex justify-center items-center bg-pt-blue text-black"
+        href="#contacto"
+      >
+        Contáctame
+      </a>
+    </header>
+  );
+}
+
+export default Header;

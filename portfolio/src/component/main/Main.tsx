@@ -4,7 +4,7 @@ import gh from "../../assets/images/gh.png";
 
 function Main() {
     return(
-        <main className="px-[200px] flex justify-around">
+        <main className="px-[200px] flex justify-around" id="sobre-mi">
             <div className="py-[200px]">
                 <h1 className="text-[64px] font-bold leading-none">Manuel Guaicara</h1>
                 <h2 className="text-[48px] leading-none my-[20px]">FullStack Developer</h2>
