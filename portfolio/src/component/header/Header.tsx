@@ -8,7 +8,7 @@ function Header() {
                 <li className="underline-animation">Sobre mi</li>
             </ul>
         </nav>
-        <a className="w-[175px] h-[35px] rounded-[10px] flex justify-center items-center bg-pt-blue text-black font-bold" href="/">Contáctame</a>
+        <a className="w-[175px] h-[35px] rounded-[10px] flex justify-center items-center bg-pt-blue text-black" href="/">Contáctame</a>
       </header>
     )
   }

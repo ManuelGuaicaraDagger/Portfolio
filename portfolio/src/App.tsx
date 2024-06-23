@@ -1,4 +1,5 @@
 import './App.css'
+import Contact from './component/contact/Contact.tsx'
 import Header from './component/header/Header.tsx'
 import Main from './component/main/Main.tsx'
 import Projects from './component/projects/Projects.tsx'
@@ -13,6 +14,7 @@ function App() {
      <Main/>
      <Projects/>
      <Technologies />
+     <Contact />
     </>
   )
 }
