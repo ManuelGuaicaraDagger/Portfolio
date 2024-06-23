@@ -10,11 +10,11 @@ interface ProjectsCardsProps {
 
 const ProjectsCards: React.FC<ProjectsCardsProps> = ({ image, title, text, path }) => {
   return (
-    <div className='w-3/5 h-[250px] flex justify-between items-center my-[50px] border-t border-b '>
+    <div className=' h-[350px] flex justify-between items-center my-[50px] border-t border-b mx-[200px]'>
       <img className='w-auto h-full ' src={image} alt={title} />
-      <div className='h-full flex flex-col justify-between items-center p-[20px]'>
+      <div className='h-full flex flex-col justify-around items-center p-[20px]'>
       <h2 className='text-2xl font-bold'>{title}</h2>
-      <p className='text-sm'>{text}</p>
+      <p className='text-sm text-start pl-[50px]'>{text}</p>
       <a className="w-[175px] h-[35px] rounded-[10px]  flex justify-center items-center bg-pt-blue text-black" href={path}>Saber más</a>
       </div>
     </div>
