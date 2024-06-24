@@ -7,7 +7,7 @@ const projects = [
     {
       image: sih,
       title: 'Secure Ingress Home',
-      text: 'Aplicación web destinada a la administración de barrios privados. Cuenta con el rol de administrador, que registrará cada una de las propiedades para posteriormente ser ocupadas por un residente, este es el segundo rol, desde su dashboard podrá realizar los pagos de expensas y generar autorizaciones de ingreso para sus invitados. Estas autorizaciones serán aprobadas por el personal de seguridad.',
+      text: 'Aplicación web destinada a la administración de barrios privados. El administrador registrará cada una de las propiedades para posteriormente ser ocupadas por un residente. El residente podrá realizar los pagos de expensas y generar autorizaciones de ingreso para sus invitados que serán aprobadas por el personal de seguridad.',
       path: '/SIH'
     },
     {
