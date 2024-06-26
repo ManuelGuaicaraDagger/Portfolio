@@ -2,7 +2,6 @@ import './App.css'
 import { Route, Routes } from "react-router-dom";
 import Footer from './component/footer/Footer.tsx'
 import Header from './component/header/Header.tsx'
-
 import useSmoothScrollWithOffset from './helpers/scroll.ts'
 import Home from './views/Home.tsx';
 import Sih from './views/Sih.tsx';

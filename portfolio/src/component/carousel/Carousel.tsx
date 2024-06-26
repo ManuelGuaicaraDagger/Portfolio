@@ -37,7 +37,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
   };
 
   return (
-    <div className="w-4/5 mx-auto relative overflow-hidden">
+    <div className="w-9/12 mx-auto relative overflow-hidden">
       <div
         className={`whitespace-nowrap transition-transform duration-500 ${isTransitioning ? 'transform -translate-x-full' : ''}`}
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
