@@ -1,6 +1,7 @@
 import { FormEvent, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import gmail from "../../assets/images/gmail.png"
 
 const Contact = () => {
     const formRef = useRef<HTMLFormElement>(null);
@@ -71,6 +72,10 @@ const Contact = () => {
               Enviar
             </button>
           </form>
+          <div className="flex mt-[30px] items-center">
+            <img src={gmail} alt="Gmail" className="h-[50px] w-auto mr-[10px]"/>
+            <span className="text-2xl">manuelguaicara17@gmail.com</span>
+          </div>
         </section>
     )
 }
