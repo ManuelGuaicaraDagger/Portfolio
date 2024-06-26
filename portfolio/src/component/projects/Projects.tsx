@@ -20,7 +20,7 @@ const projects = [
       image: gd,
       title: 'Gen Digital',
       text: 'E-commerce de productos tecnológicos donde el usuario podrá registrarse, acceder a la información detallada de los productos y adquirirlos.',
-      path: '/SIH'
+      path: '/DG'
     }
 ];
 
