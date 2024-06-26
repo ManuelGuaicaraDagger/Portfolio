@@ -8,12 +8,6 @@ function BackHeader () {
           </li>
         </ul>
       </nav>
-      <a
-        className="w-[175px] h-[35px] rounded-[10px] flex justify-center items-center bg-pt-blue text-black"
-        href="#contacto"
-      >
-        Contáctame
-      </a>
     </header>
     )
 }
