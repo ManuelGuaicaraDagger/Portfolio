@@ -4,10 +4,13 @@ import gsig from "../assets/images/projects/gsig.png"
 import pro from "../assets/images/projects/pro.png"
 import iph from "../assets/images/projects/iph.png"
 import or from "../assets/images/projects/or.png"
+import BackHeader from "../component/header/BackHeader"
 
 function Dg () {
     const images = [gd, gsig, pro, iph, or]
     return (
+        <>
+        <BackHeader />
         <main className="flex flex-col justify-center items-center">
         <h2 className="text-[48px] my-[20px] font-bold text-center">Digital Gen</h2>
         <Carousel images={images}/>
@@ -18,8 +21,9 @@ function Dg () {
             </p>
             <h3 className="text-3xl my-[50px] font-bold text-center">Tecnologías aplicadas</h3>
         </div>
-        <a href="https://secureingresshome.vercel.app/" target="_blank"  className="w-[175px] h-[35px] rounded-[10px] mt-[50px]  flex justify-center items-center bg-pt-blue text-black">Visitar</a>
+        <a href="https://secureingresshome.vercel.app/" target="_blank"  className="w-[175px] h-[35px] rounded-[10px] mt-[50px] mb-[100px] flex justify-center items-center bg-pt-blue text-black">Visitar</a>
         </main>
+        </>
     )
 }
 

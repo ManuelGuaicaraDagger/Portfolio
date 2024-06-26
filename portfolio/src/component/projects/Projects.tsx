@@ -12,7 +12,7 @@ const projects = [
     },
     {
       image: pcv,
-      title: 'Patitas clínica veterinaria',
+      title: 'Patitas Clínica veterinaria',
       text: 'Aplicación web destinada a la reserva de turnos para una clínica veterinaria.El usuario deberá registrarse para poder pedir, cancelar o editar turnos.',
       path: '/PCV'
     },
