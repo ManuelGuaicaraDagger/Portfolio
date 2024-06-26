@@ -17,9 +17,9 @@ function App() {
      <Header/>
      <Routes>
      <Route path='/' element={<Home />} />
-     <Route path='/SIH' element={<Sih />} />
-     <Route path='/PCV' element={<Pcv />} />
-     <Route path='/DG' element={<Dg />} />
+     <Route path='/sih' element={<Sih />} />
+     <Route path='/pcv' element={<Pcv />} />
+     <Route path='/dg' element={<Dg />} />
      </Routes>
      <Footer/>
     </>
