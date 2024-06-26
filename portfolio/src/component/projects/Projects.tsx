@@ -8,19 +8,19 @@ const projects = [
       image: sih,
       title: 'Secure Ingress Home',
       text: 'Aplicación web destinada a la administración de barrios privados. El administrador registrará cada una de las propiedades para posteriormente ser ocupadas por un residente. El residente podrá realizar los pagos de expensas y generar autorizaciones de ingreso para sus invitados que serán aprobadas por el personal de seguridad.',
-      path: '/sih'
+      path: '/Sih'
     },
     {
       image: pcv,
       title: 'Patitas clínica veterinaria',
       text: 'Aplicación web destinada a la reserva de turnos para una clínica veterinaria.El usuario deberá registrarse para poder pedir, cancelar o editar turnos.',
-      path: '/pcv'
+      path: '/Pcv'
     },
     {
       image: gd,
       title: 'Gen Digital',
       text: 'E-commerce de productos tecnológicos donde el usuario podrá registrarse, acceder a la información detallada de los productos y adquirirlos.',
-      path: '/dg'
+      path: '/Dg'
     }
 ];
 
