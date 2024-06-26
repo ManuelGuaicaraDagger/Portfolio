@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import prev from "../../assets/images/flechaSig.png"
+import next from "../../assets/images/flechaAnt.png"
 
 interface CarouselProps {
   images: string[];
@@ -17,10 +19,18 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
     }, 500); 
   }, [images.length]);
 
+  const handlePreviousImage = useCallback(() => {
+    setIsTransitioning(true);
+    timeoutRef.current = setTimeout(() => {
+      setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
+      setIsTransitioning(false);
+    }, 500); 
+  }, [images.length]);
+
   useEffect(() => {
     const interval = setInterval(() => {
       handleNextImage();
-    }, 6000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, [handleNextImage]);
@@ -51,7 +61,13 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
           />
         ))}
       </div>
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center items-center mt-4">
+        <img
+          src={prev}
+          alt="Anteior"
+          onClick={handlePreviousImage}
+          className="cursor-pointer h-auto w-5 mr-2"
+        />
         {images.map((_, index) => (
           <span
             key={index}
@@ -61,6 +77,12 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
             }`}
           ></span>
         ))}
+        <img
+          src={next}
+          alt="Siguiente"
+          onClick={handleNextImage}
+          className="cursor-pointer h-auto w-5 ml-2"
+        />
       </div>
     </div>
   );
