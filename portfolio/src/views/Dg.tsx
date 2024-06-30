@@ -68,7 +68,7 @@ function Dg () {
         <Carousel images={images}/>
         <div className="flex flex-col justify-center items-center mt-[80px]">
             <h3 className="text-3xl mb-[50px] font-bold text-center max-[800px]:text-[24px] max-[400px]:text-[16px]">Descripción</h3>
-            <p className="w-1/2 text-lg max-[800px]:text-[14px] max-[400px]:text-[12px]">
+            <p className="w-1/2 text-lg max-[800px]:text-[14px] max-[400px]:text-[12px] max-[700px]:w-3/4">
             E-commerce de productos tecnológicos donde el usuario podrá registrarse, acceder a la información detallada de los productos y adquirirlos.
             </p>
             <h3 className="text-3xl my-[50px] font-bold text-center max-[800px]:text-[24px] max-[400px]:text-[16px]">Tecnologías aplicadas</h3>
