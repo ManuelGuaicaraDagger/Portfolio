@@ -39,21 +39,21 @@ const Contact = () => {
 
     return (
         <section className="flex flex-col justify-center items-center mt-[60px]" id="contacto">
-            <h2 className="text-[52px] font-bold">Contacto</h2>
+            <h2 className="text-[52px] font-bold max-[800px]:text-[40px]">Contacto</h2>
             <form
             ref={formRef}
             onSubmit={handleSubmit}
             className="flex flex-col justify-center items-center mt-[30px]"
           >
             <input
-              className="text-black h-[40px] w-[500px] bg-sih-grey rounded-[15px] px-2 outline-0 m-[10px]"
+              className="text-black h-[40px] w-[500px] bg-sih-grey rounded-[15px] px-2 outline-0 m-[10px] max-[700px]:w-[250px]"
               type="text"
               name="name"
               placeholder="Nombre"
               required
             />
             <input
-              className="text-black h-[40px] w-[500px] bg-sih-grey rounded-[15px] px-2 outline-0 m-[10px]"
+              className="text-black h-[40px] w-[500px] bg-sih-grey rounded-[15px] px-2 outline-0 m-[10px] max-[700px]:w-[250px]"
               type="email"
               name="email"
               placeholder="Correo electrónico"
@@ -62,7 +62,7 @@ const Contact = () => {
             <textarea
               name="message"
               id=""
-              className="text-black w-[500px] bg-sih-grey rounded-[15px] px-2 outline-0 m-[10px] h-[150px] p-[5px] resize-none"
+              className="text-black w-[500px] bg-sih-grey rounded-[15px] px-2 outline-0 m-[10px] h-[150px] p-[5px] resize-none max-[700px]:w-[250px] max-[400px]:h-[100px]"
               placeholder="Escribe aquí tu mensaje"
             ></textarea>
             <button
@@ -73,8 +73,8 @@ const Contact = () => {
             </button>
           </form>
           <div className="flex mt-[30px] items-center">
-            <img src={gmail} alt="Gmail" className="h-[50px] w-auto mr-[10px]"/>
-            <span className="text-2xl">manuelguaicara17@gmail.com</span>
+            <img src={gmail} alt="Gmail" className="h-[50px] w-auto mr-[10px] max-[400px]:h-[25px]"/>
+            <span className="text-2xl max-[700px]:text-base">manuelguaicara17@gmail.com</span>
           </div>
         </section>
     )

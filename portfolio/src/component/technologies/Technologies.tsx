@@ -85,16 +85,16 @@ const Technologies = () => {
     return (
         <section className="flex flex-col justify-center items-center mt-[60px]" id="tecnologias">
             <div className="text-center">
-                <h2 className="text-[52px] mb-[50px] font-bold">Tecnologías</h2>
+                <h2 className="text-[52px] mb-[50px] font-bold max-[800px]:text-[40px]">Tecnologías</h2>
             </div>
-            <div className="flex flex-wrap justify-center items-center px-[200px]">
+            <div className="flex flex-wrap justify-center items-center px-[200px] max-[1100px]:px-[50px] max-[400px]:px-[10px]">
             {technologies.map((tech, index) => (
-                <div className="text-center mx-[30px] my-[20px]" key={index} > 
+                <div className="flex flex-col justify-center items-center text-center mx-[30px] my-[20px] max-[550px]:mx-[10px]" key={index} > 
                     <img
-                        className="h-[100px] mb-[10px]"
+                        className="h-[100px] mb-[10px] max-[1300px]:h-[80px] max-[850px]:h-[60px] max-[550px]:h-[40px] max-[400px]:h-[25px]"
                         src={tech.image}
                     />
-                    <span>
+                    <span className="max-[400px]:text-[12px]">
                          {tech.title}
                     </span>
                 </div>

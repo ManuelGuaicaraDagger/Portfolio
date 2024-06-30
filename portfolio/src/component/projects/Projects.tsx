@@ -28,7 +28,7 @@ function Projects() {
   return (
     <section className="flex justify-center mt-[130px]" id='proyectos'>
       <div className="text-center">
-        <h2 className="text-[52px] mb-[20px] font-bold">Proyectos</h2>
+        <h2 className="text-[52px] mb-[20px] font-bold max-[800px]:text-[40px]">Proyectos</h2>
         <div className='flex flex-col justify-center items-center'>
         {projects.map((project, index) => (
           <ProjectsCards
